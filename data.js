@@ -1,4 +1,4 @@
-/* Structures are extracted from the user's course handout. Order follows the handout. */
+/* Amino-acid data follows the course handout. Structures are original SVG diagrams. */
 window.AMINOS = [
  {name:'Glycine',three:'Gly',one:'G',zh:'甘胺酸',group:'nonpolar',formula:'H₃N⁺—CH₂—C(=O)—O⁻',tip:'唯一 R = H。α 碳接兩個氫，沒有手性；本題要畫完整主鏈。',check:'胺基 H₃N⁺、中央 CH₂、羧基 C(=O)O⁻ 都要畫出。'},
  {name:'Alanine',three:'Ala',one:'A',zh:'丙胺酸',group:'nonpolar',formula:'—CH₃',tip:'從 Glycine 的 H 換成最小的碳側鏈：一個甲基。',check:'一個 CH₃，直接接 α 碳。'},

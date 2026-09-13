@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 285" role="img" aria-labelledby="title desc">
+<title id="title">Aspartic acid — side chain</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M150.00 222.96 L150.00 182.04" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M150.00 147.96 L150.00 107.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M161.90 78.49 L219.62 41.14" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M165.38 83.86 L223.10 46.51" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M136.36 81.66 L79.00 46.61" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="150" y="240" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">Cα</text>
+<text x="150" y="165" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="150" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">C</text>
+<text x="235" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#be5968">O</text>
+<text x="60" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#be5968">O⁻</text>
+</svg>

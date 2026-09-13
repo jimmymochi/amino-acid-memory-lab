@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335 290" role="img" aria-labelledby="title desc">
+<title id="title">Proline — side chain</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M206.00 245.00 L102.28 245.00" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M231.49 227.96 L258.51 157.04" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M241.57 122.96 L178.43 77.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M131.57 77.04 L68.43 122.96" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M50.68 157.04 L74.32 227.96" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="225" y="245" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">Cα</text>
+<text x="80" y="245" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">NH</text>
+<text x="265" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="155" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="45" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+</svg>

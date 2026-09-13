@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 360" role="img" aria-labelledby="title desc">
+<title id="title">Isoleucine — side chain</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M150.00 297.96 L150.00 257.04" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M165.04 222.96 L209.96 172.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M225.00 137.96 L225.00 82.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M132.96 222.96 L82.04 172.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="150" y="315" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">Cα</text>
+<text x="150" y="240" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH</text>
+<text x="225" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="225" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₃</text>
+<text x="65" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₃</text>
+</svg>

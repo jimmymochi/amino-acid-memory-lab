@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 375" role="img" aria-labelledby="title desc">
+<title id="title">Tryptophan — side chain</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M245.00 312.96 L245.00 272.04" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M165.81 71.29 L101.02 34.27" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M168.98 65.73 L104.19 28.71" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M100.00 30.00 L30.00 70.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M33.20 73.00 L33.20 147.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M26.80 73.00 L26.80 147.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M30.00 150.00 L100.00 190.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M101.02 185.73 L165.81 148.71" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M104.19 191.29 L168.98 154.27" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M170.00 150.00 L170.00 70.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M170.00 70.00 L222.72 52.43" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M257.17 62.04 L295.00 115.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M295.86 119.30 L249.35 184.42" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M290.65 115.58 L244.14 180.70" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M245.00 185.00 L170.00 150.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M245.00 185.00 L245.00 237.96" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="245" y="330" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">Cα</text>
+<text x="245" y="255" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="245" y="45" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#3970aa">NH</text>
+</svg>

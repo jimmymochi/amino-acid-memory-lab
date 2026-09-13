@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 450" role="img" aria-labelledby="title desc">
+<title id="title">Arginine — side chain</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M175.00 387.96 L175.00 352.04" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M159.27 317.96 L130.73 287.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M130.73 252.96 L159.27 222.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M159.27 187.96 L130.73 157.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M129.61 122.96 L161.36 85.91" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M188.64 66.80 L257.01 66.80" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M188.64 73.20 L257.01 73.20" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M161.36 60.91 L125.56 37.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="175" y="405" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">Cα</text>
+<text x="175" y="335" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="115" y="270" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="175" y="205" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₂</text>
+<text x="115" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#3970aa">NH</text>
+<text x="175" y="70" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">C</text>
+<text x="290" y="70" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#3970aa">NH₂⁺</text>
+<text x="100" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#3970aa">NH₂</text>
+</svg>

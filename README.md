@@ -43,14 +43,18 @@ python -m http.server 4173 --bind 127.0.0.1
 
 ## 內容來源與表示法
 
-資料與 PNG 結構圖擷取自使用者提供的課堂講義 `20_amino_acids.pdf`，限本學習用途，未聲稱原圖著作權。Sec 側鏈 SVG 依講義整理；記憶線索由本專案編寫。
+名稱、代碼與電荷表示法依使用者提供的課堂講義 `20_amino_acids.pdf` 整理。21 張結構圖皆為本專案重新繪製的 SVG 向量圖，不使用 PDF 截圖。記憶線索由本專案編寫。
 
 - Glycine 採講義兩性離子式 H₃N⁺—CH₂—C(=O)—O⁻。
-- Proline 圖保留主鏈，顯示三個 CH₂ 如何接回主鏈 N；考點為閉環關係。
+- Proline 以灰色 NH 與 Cα 標示兩個主鏈位置，顯示三個 CH₂ 如何接回 N；不額外畫其餘主鏈。NH 採講義形式。
 - Histidine 採講義帶正電形式。實際質子化狀態隨 pH 改變，並非永遠 +1。
-- R group 下端連接 α 碳；PNG 原圖可能保留與主鏈連結的短鍵線。
+- 灰色 Cα 是連接參照，不計入 R group。環上無標字的頂點為碳，碳上的氫依鍵線式省略。
 
 ## 專案檔案
 
-`data.js`：21 種胺基酸與提示。`app.js`：練習、小考、畫布與進度。`styles.css`：手機與桌面版型。`assets/structures/`：參考結構。`.github/workflows/pages.yml`：靜態部署。
+`data.js`：21 種胺基酸與提示。`app.js`：練習、小考、畫布與進度。`styles.css`：手機與桌面版型。`assets/structures/`：21 張原創 SVG 結構。`scripts/draw_structures.py`：可重現的繪圖與原子鍵數／組成／電荷驗證。`.github/workflows/pages.yml`：靜態部署。
 
+
+## 重畫與檢查結構
+
+執行 `python scripts/draw_structures.py`，不需要第三方套件。輸出 SVG 與 `tests/structure-graphs.json`，並檢查 21 張圖的原子價鍵、側鏈元素／氫數與總電荷。圖鑑與批改畫面可點擊結構開啟放大視窗；Esc 可關閉。

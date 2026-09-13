@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 280" role="img" aria-labelledby="title desc">
+<title id="title">Threonine — side chain</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M150.00 217.96 L150.00 167.04" fill="none" stroke="#91a2aa" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M132.96 132.96 L82.04 82.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M167.04 132.96 L217.96 82.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="150" y="235" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#91a2aa">Cα</text>
+<text x="150" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH</text>
+<text x="65" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#be5968">OH</text>
+<text x="235" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">CH₃</text>
+</svg>

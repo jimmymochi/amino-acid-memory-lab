@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="title desc">
+<title id="title">Glycine — full structure</title>
+<desc id="desc">Original vector drawing. Grey Cα marks the backbone attachment, not an extra side-chain carbon. Ring vertices are carbon atoms; hydrogens on skeletal carbons are implicit.</desc>
+<path d="M92.99 125.00 L141.36 125.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M155.00 107.96 L155.00 67.04" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M155.00 142.04 L155.00 182.96" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M168.64 125.00 L226.36 125.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M243.20 142.04 L243.20 187.96" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M236.80 142.04 L236.80 187.96" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M253.64 125.00 L311.00 125.00" fill="none" stroke="#254d59" stroke-width="2.6" stroke-linecap="round"/>
+<text x="60" y="125" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#3970aa">H₃N⁺</text>
+<text x="155" y="125" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">C</text>
+<text x="155" y="50" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">H</text>
+<text x="155" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">H</text>
+<text x="240" y="125" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#254d59">C</text>
+<text x="240" y="205" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#be5968">O</text>
+<text x="330" y="125" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500" fill="#be5968">O⁻</text>
+</svg>

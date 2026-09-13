@@ -1,0 +1,2075 @@
+[
+  {
+    "code": "G",
+    "name": "Glycine",
+    "atoms": {
+      "N": 1,
+      "H": 5,
+      "C": 2,
+      "O": 2
+    },
+    "charge": 0,
+    "nodes": {
+      "n": {
+        "x": 60,
+        "y": 125,
+        "element": "N",
+        "h": 3,
+        "charge": 1,
+        "skeletal": false,
+        "reference": false,
+        "label": "H₃N⁺"
+      },
+      "a": {
+        "x": 155,
+        "y": 125,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "h1": {
+        "x": 155,
+        "y": 50,
+        "element": "H",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "h2": {
+        "x": 155,
+        "y": 200,
+        "element": "H",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c": {
+        "x": 240,
+        "y": 125,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "o": {
+        "x": 240,
+        "y": 205,
+        "element": "O",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "om": {
+        "x": 330,
+        "y": 125,
+        "element": "O",
+        "h": 0,
+        "charge": -1,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "n",
+        "b": "a",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "a",
+        "b": "h1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "a",
+        "b": "h2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "a",
+        "b": "c",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c",
+        "b": "o",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "c",
+        "b": "om",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "A",
+    "name": "Alanine",
+    "atoms": {
+      "C": 1,
+      "H": 3
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 110,
+        "y": 180,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 110,
+        "y": 95,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      }
+    ]
+  },
+  {
+    "code": "V",
+    "name": "Valine",
+    "atoms": {
+      "C": 3,
+      "H": 7
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 235,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 155,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "left": {
+        "x": 65,
+        "y": 65,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "right": {
+        "x": 235,
+        "y": 65,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "left",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c0",
+        "b": "right",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "L",
+    "name": "Leucine",
+    "atoms": {
+      "C": 4,
+      "H": 9
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 315,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 240,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 150,
+        "y": 160,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "left": {
+        "x": 65,
+        "y": 65,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "right": {
+        "x": 235,
+        "y": 65,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "left",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "right",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "I",
+    "name": "Isoleucine",
+    "atoms": {
+      "C": 4,
+      "H": 9
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 315,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 240,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 225,
+        "y": 155,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c2": {
+        "x": 225,
+        "y": 65,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "branch": {
+        "x": 65,
+        "y": 155,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "c2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c0",
+        "b": "branch",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "M",
+    "name": "Methionine",
+    "atoms": {
+      "C": 3,
+      "H": 7,
+      "S": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 335,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 265,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 95,
+        "y": 190,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c2": {
+        "x": 150,
+        "y": 120,
+        "element": "S",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c3": {
+        "x": 225,
+        "y": 55,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "c2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c2",
+        "b": "c3",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "F",
+    "name": "Phenylalanine",
+    "atoms": {
+      "C": 7,
+      "H": 7
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 160,
+        "y": 290,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "ch2": {
+        "x": 160,
+        "y": 215,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "r0": {
+        "x": 160,
+        "y": 160,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r1": {
+        "x": 220,
+        "y": 125,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r2": {
+        "x": 220,
+        "y": 55,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r3": {
+        "x": 160,
+        "y": 20,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r4": {
+        "x": 100,
+        "y": 55,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r5": {
+        "x": 100,
+        "y": 125,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "ch2",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "r0",
+        "b": "r1",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "r1",
+        "b": "r2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "r2",
+        "b": "r3",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "r3",
+        "b": "r4",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "r4",
+        "b": "r5",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "r5",
+        "b": "r0",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "ch2",
+        "b": "r0",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "Y",
+    "name": "Tyrosine",
+    "atoms": {
+      "C": 7,
+      "H": 7,
+      "O": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 160,
+        "y": 345,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "ch2": {
+        "x": 160,
+        "y": 270,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "r0": {
+        "x": 160,
+        "y": 215,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r1": {
+        "x": 220,
+        "y": 180,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r2": {
+        "x": 220,
+        "y": 110,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r3": {
+        "x": 160,
+        "y": 75,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r4": {
+        "x": 100,
+        "y": 110,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "r5": {
+        "x": 100,
+        "y": 180,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "oh": {
+        "x": 160,
+        "y": 15,
+        "element": "O",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "ch2",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "r0",
+        "b": "r1",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "r1",
+        "b": "r2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "r2",
+        "b": "r3",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "r3",
+        "b": "r4",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "r4",
+        "b": "r5",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "r5",
+        "b": "r0",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "ch2",
+        "b": "r0",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "r3",
+        "b": "oh",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "W",
+    "name": "Tryptophan",
+    "atoms": {
+      "C": 9,
+      "H": 8,
+      "N": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 245,
+        "y": 330,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "ch2": {
+        "x": 245,
+        "y": 255,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "b0": {
+        "x": 170,
+        "y": 70,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "b1": {
+        "x": 100,
+        "y": 30,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "b2": {
+        "x": 30,
+        "y": 70,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "b3": {
+        "x": 30,
+        "y": 150,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "b4": {
+        "x": 100,
+        "y": 190,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "b5": {
+        "x": 170,
+        "y": 150,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "n1": {
+        "x": 245,
+        "y": 45,
+        "element": "N",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c2": {
+        "x": 295,
+        "y": 115,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "c3": {
+        "x": 245,
+        "y": 185,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "ch2",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "b0",
+        "b": "b1",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "b1",
+        "b": "b2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "b2",
+        "b": "b3",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "b3",
+        "b": "b4",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "b4",
+        "b": "b5",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "b5",
+        "b": "b0",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "b0",
+        "b": "n1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "n1",
+        "b": "c2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c2",
+        "b": "c3",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "c3",
+        "b": "b5",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c3",
+        "b": "ch2",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "P",
+    "name": "Proline",
+    "atoms": {
+      "C": 3,
+      "H": 6
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 225,
+        "y": 245,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "n": {
+        "x": 80,
+        "y": 245,
+        "element": "N",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": null
+      },
+      "p0": {
+        "x": 265,
+        "y": 140,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "p1": {
+        "x": 155,
+        "y": 60,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "p2": {
+        "x": 45,
+        "y": 140,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "n",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "alpha",
+        "b": "p0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "p0",
+        "b": "p1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "p1",
+        "b": "p2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "p2",
+        "b": "n",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "S",
+    "name": "Serine",
+    "atoms": {
+      "C": 1,
+      "H": 3,
+      "O": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 120,
+        "y": 220,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 120,
+        "y": 145,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 120,
+        "y": 60,
+        "element": "O",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "C",
+    "name": "Cysteine",
+    "atoms": {
+      "C": 1,
+      "H": 3,
+      "S": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 120,
+        "y": 220,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 120,
+        "y": 145,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 120,
+        "y": 60,
+        "element": "S",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "U",
+    "name": "Selenocysteine",
+    "atoms": {
+      "C": 1,
+      "H": 3,
+      "Se": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 120,
+        "y": 220,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 120,
+        "y": 145,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 120,
+        "y": 60,
+        "element": "Se",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "T",
+    "name": "Threonine",
+    "atoms": {
+      "C": 2,
+      "H": 5,
+      "O": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 235,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 150,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "oh": {
+        "x": 65,
+        "y": 65,
+        "element": "O",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "methyl": {
+        "x": 235,
+        "y": 65,
+        "element": "C",
+        "h": 3,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "oh",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c0",
+        "b": "methyl",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "N",
+    "name": "Asparagine",
+    "atoms": {
+      "C": 2,
+      "H": 4,
+      "O": 1,
+      "N": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 240,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 165,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "carbonyl": {
+        "x": 150,
+        "y": 90,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "o": {
+        "x": 235,
+        "y": 35,
+        "element": "O",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "end": {
+        "x": 60,
+        "y": 35,
+        "element": "N",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "carbonyl",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "o",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "end",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "Q",
+    "name": "Glutamine",
+    "atoms": {
+      "C": 3,
+      "H": 6,
+      "O": 1,
+      "N": 1
+    },
+    "charge": 0,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 315,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 240,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 150,
+        "y": 165,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "carbonyl": {
+        "x": 150,
+        "y": 90,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "o": {
+        "x": 235,
+        "y": 35,
+        "element": "O",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "end": {
+        "x": 60,
+        "y": 35,
+        "element": "N",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "carbonyl",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "o",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "end",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "D",
+    "name": "Aspartic acid",
+    "atoms": {
+      "C": 2,
+      "H": 2,
+      "O": 2
+    },
+    "charge": -1,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 240,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 165,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "carbonyl": {
+        "x": 150,
+        "y": 90,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "o": {
+        "x": 235,
+        "y": 35,
+        "element": "O",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "end": {
+        "x": 60,
+        "y": 35,
+        "element": "O",
+        "h": 0,
+        "charge": -1,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "carbonyl",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "o",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "end",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "E",
+    "name": "Glutamic acid",
+    "atoms": {
+      "C": 3,
+      "H": 4,
+      "O": 2
+    },
+    "charge": -1,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 315,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 240,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 150,
+        "y": 165,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "carbonyl": {
+        "x": 150,
+        "y": 90,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "o": {
+        "x": 235,
+        "y": 35,
+        "element": "O",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "end": {
+        "x": 60,
+        "y": 35,
+        "element": "O",
+        "h": 0,
+        "charge": -1,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "carbonyl",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "o",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "carbonyl",
+        "b": "end",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "K",
+    "name": "Lysine",
+    "atoms": {
+      "C": 4,
+      "H": 11,
+      "N": 1
+    },
+    "charge": 1,
+    "nodes": {
+      "alpha": {
+        "x": 150,
+        "y": 400,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 150,
+        "y": 330,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 95,
+        "y": 260,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c2": {
+        "x": 150,
+        "y": 190,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c3": {
+        "x": 95,
+        "y": 120,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c4": {
+        "x": 150,
+        "y": 40,
+        "element": "N",
+        "h": 3,
+        "charge": 1,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "c2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c2",
+        "b": "c3",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c3",
+        "b": "c4",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "R",
+    "name": "Arginine",
+    "atoms": {
+      "C": 4,
+      "H": 11,
+      "N": 3
+    },
+    "charge": 1,
+    "nodes": {
+      "alpha": {
+        "x": 175,
+        "y": 405,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "c0": {
+        "x": 175,
+        "y": 335,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c1": {
+        "x": 115,
+        "y": 270,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c2": {
+        "x": 175,
+        "y": 205,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c3": {
+        "x": 115,
+        "y": 140,
+        "element": "N",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "guanidino": {
+        "x": 175,
+        "y": 70,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "n_double": {
+        "x": 290,
+        "y": 70,
+        "element": "N",
+        "h": 2,
+        "charge": 1,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "n_single": {
+        "x": 100,
+        "y": 20,
+        "element": "N",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "c0",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "c0",
+        "b": "c1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c1",
+        "b": "c2",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c2",
+        "b": "c3",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c3",
+        "b": "guanidino",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "guanidino",
+        "b": "n_double",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "guanidino",
+        "b": "n_single",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  },
+  {
+    "code": "H",
+    "name": "Histidine",
+    "atoms": {
+      "C": 4,
+      "H": 6,
+      "N": 2
+    },
+    "charge": 1,
+    "nodes": {
+      "alpha": {
+        "x": 90,
+        "y": 330,
+        "element": "*",
+        "h": 0,
+        "charge": 0,
+        "skeletal": false,
+        "reference": true,
+        "label": "Cα"
+      },
+      "ch2": {
+        "x": 90,
+        "y": 255,
+        "element": "C",
+        "h": 2,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c4": {
+        "x": 90,
+        "y": 170,
+        "element": "C",
+        "h": 0,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "c5": {
+        "x": 90,
+        "y": 85,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "n1": {
+        "x": 185,
+        "y": 50,
+        "element": "N",
+        "h": 1,
+        "charge": 1,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      },
+      "c2": {
+        "x": 240,
+        "y": 130,
+        "element": "C",
+        "h": 1,
+        "charge": 0,
+        "skeletal": true,
+        "reference": false,
+        "label": null
+      },
+      "n3": {
+        "x": 185,
+        "y": 200,
+        "element": "N",
+        "h": 1,
+        "charge": 0,
+        "skeletal": false,
+        "reference": false,
+        "label": null
+      }
+    },
+    "bonds": [
+      {
+        "a": "alpha",
+        "b": "ch2",
+        "order": 1,
+        "reference": true
+      },
+      {
+        "a": "ch2",
+        "b": "c4",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "c4",
+        "b": "c5",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "c5",
+        "b": "n1",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "n1",
+        "b": "c2",
+        "order": 2,
+        "reference": false
+      },
+      {
+        "a": "c2",
+        "b": "n3",
+        "order": 1,
+        "reference": false
+      },
+      {
+        "a": "n3",
+        "b": "c4",
+        "order": 1,
+        "reference": false
+      }
+    ]
+  }
+]
