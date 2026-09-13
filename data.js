@@ -24,3 +24,28 @@ window.AMINOS = [
 ];
 window.GROUPS = {nonpolar:{label:'非極性',color:'#bd8254'},polar:{label:'極性・不帶電',color:'#408b83'},acidic:{label:'酸性',color:'#b46481'},basic:{label:'鹼性',color:'#587cbb'},bonus:{label:'加分題',color:'#8971ad'}};
 
+// Original memory aids, not etymologies or pronunciation guides.
+window.MEMORY = {
+ G:{hook:'「甘」願當最簡單的 G：側鏈只有 H。',parts:['Gly','cine'],three:'開頭三個字母 Gly。y 不要漏掉，別寫成 Gyl。',one:'Glycine → Gly → G，一路取開頭。'},
+ A:{hook:'「阿蘭」Ala 拿著一個甲基，名牌就寫 A。',parts:['Ala','nine'],three:'Ala 就像「阿蘭」的名字牌；直接取前三個字母。',one:'Alanine → Ala → A。先把最直覺的 A 記牢。'},
+ V:{hook:'「瓦力」Val 舉起 V 字手勢：側鏈也立刻分岔。',parts:['Val','ine'],three:'Val 是前三個字母；別與 Leu 混在一起。',one:'Valine 的 V，也像兩支短枝分開。'},
+ L:{hook:'「留」Leu 一步再分岔：白胺酸先走一個 CH₂。',parts:['Leu','cine'],three:'Leu 三字母次序是 L-e-u，可唸口訣「留，Leu」。',one:'白胺酸 Leucine 用 L；Lysine 雖也以 L 開頭，代碼是 K。'},
+ I:{hook:'「異」就是 Iso：在白胺酸 Leucine 前面加 Iso。',parts:['Iso','leu','cine'],three:'Ile 記成 I ＋ le（取自 leucine）；不是 Iso。中間是小寫 l，不是大寫 I。',one:'Isoleucine → I，看到「異白」先想到 Iso 的 I。'},
+ M:{hook:'「美」Met 把硫藏中間，硫的兩邊都有碳。',parts:['Methio','nine'],three:'前三個字母 Met；完整名後面還有 hionine。',one:'Methionine → Met → M。硫在中間，不是末端 SH。'},
+ F:{hook:'「苯」人搭飛機：飛想到 F，Ph 也發 /f/ 音。',parts:['Phenyl','alanine'],three:'前三字母 Phe，Ph 要一起留下；不是 Phe 的 P 當單字母。',one:'Ph 的 /f/ 音 → F。P 已是 Proline。'},
+ W:{hook:'色彩繽紛的「旅行」trip，走過一座 W 形雙環橋。',parts:['Trypto','phan'],three:'從 TRyP 提出 T、r、p → Trp；不是 Try。',one:'W 記成 Wide，寬寬的融合雙環。這是圖像聯想。'},
+ P:{hook:'「脯」Pro 是專業的 Pro，把自己繞成一個圈。',parts:['Pro','line'],three:'像英文「專業」pro，直接取 Pro。',one:'Proline → Pro → P；P 字本身也有一個圈。'},
+ S:{hook:'一條彎彎的「絲」像 S，絲胺酸就是 Serine。',parts:['Ser','ine'],three:'Ser 是前三字母，s-e-r；不要寫成 Cys。',one:'絲 → S → Serine。S 是絲胺酸，不是「含硫就用 S」。'},
+ T:{hook:'「蘇」先生數到 Three，先留下共同開頭 Thr。',parts:['Threo','nine'],three:'像 Three 的前三字母 Thr；不是 The，也不是 Tyr。',one:'Threonine 用 T；Tyrosine 把第二個字母 Y 拿走。'},
+ C:{hook:'「半」個光圈像 C：半胱胺酸 Cysteine 用 C。',parts:['Cys','teine'],three:'Cys 就取前三字母；順序是 C-y-s。',one:'Cysteine → C。它有 SH，但 S 已代表 Serine。'},
+ Y:{hook:'「酪」農舉起 Y 形叉子：tYrosine，第二個字母最醒目。',parts:['Tyro','sine'],three:'前三字母 Tyr；T-y-r，和 Thr 的 h 分清楚。',one:'tYrosine → Y。口訣「蘇 T、酪 Y」。'},
+ N:{hook:'天門冬「醯胺」抱著 NH₂：短鏈醯胺，抓住 N。',parts:['Aspara','gine'],three:'As ＋ n：用 n 提醒末端醯胺有 N；與酸的 Asp 成對。',one:'AsparagiNe → N。短鏈那一對：酸 D、醯胺 N。'},
+ Q:{hook:'「麩醯胺，Q 彈麵」：用 Q 彈這個畫面記住 Q。',parts:['Gluta','mine'],three:'Gl ＋ n → Gln，n 提醒醯胺的 N；不是酸的 Glu。',one:'Q 的尾巴記成多一格 CH₂：長鏈醯胺 Q，短鏈醯胺 N。'},
+ D:{hook:'D 排在 E 前面：天門冬胺酸比較短，先到終點。',parts:['Aspar','tic acid'],three:'Aspartic 的前三字母 Asp；完整全名別漏 acid。',one:'酸性兩兄弟 D、E：D 短（1 個 CH₂），E 長（2 個 CH₂）。'},
+ E:{hook:'E 比 D 多走一步：麩胺酸多一個 CH₂。',parts:['Gluta','mic acid'],three:'Glutamic 的前三字母 Glu；完整全名別漏 acid。',one:'酸 D E，D 短 E 長；不是看到 Glu 就填 G。'},
+ K:{hook:'「離」開前拿 Key 鑰匙：離胺酸 Lysine 要拿 K。',parts:['Lys','ine'],three:'Lys 是前三字母，L-y-s；不能用 Leu。',one:'L 已給白胺酸 Leucine。口訣「白 L，離 K」，離開拿 Key。'},
+ R:{hook:'「精」明的阿 R 哥：Arginine → Arg → R。',parts:['Argi','nine'],three:'前三字母 Arg，像「阿 R 哥」的名字牌。',one:'aRginine 抓第二個字母 R；A 已是 Alanine。'},
+ H:{hook:'「組」一個讀歷史 History 的小組：His、H。',parts:['Histi','dine'],three:'Histidine 與 History 都從 His 開始。',one:'Histidine → His → H，一路取開頭。'},
+ U:{hook:'「硒」有的第 21 位來賓：「原來是 U！」',parts:['Seleno','cys','teine'],three:'Se（硒的符號）＋ c（cysteine 的 c）→ Sec。',one:'U 記成 Unique，特別的加分來賓。C 是 Cysteine，Sec 是 U。'}
+};
+
